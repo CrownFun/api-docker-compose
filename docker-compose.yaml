@@ -1,0 +1,12 @@
+version: "3.4"
+services:
+  app:
+    build: ./api-docker
+    ports:
+      - "8081:8081"
+  client:
+    build: ./api-docker/client-docker
+    ports:
+      - "8082:8082"
+    depends_on:
+      - app

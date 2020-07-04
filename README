@@ -1,0 +1,5 @@
+1. Przejdź do katalogu gdzie jest plik docker-compose.yaml
+2. uruchom polecenie docker-compose up
+3. wpisz w przegladarce http://localhost:8082/client/gui
+
+po kazdych zmianach w kodzie należy przebudowac aplikacje clean package
